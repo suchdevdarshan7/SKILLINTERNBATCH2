@@ -1,0 +1,23 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+}
+
+.box{
+    /* display: inline-block; */
+    height:150px; 
+    width:150px;
+    background-color: yellow; 
+    border: 1px solid black;
+}
+ 

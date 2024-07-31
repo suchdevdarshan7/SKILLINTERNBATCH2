@@ -1,0 +1,93 @@
+<style>
+    /* Descendant selector */
+
+    .container h1 {
+        background-color: crimson;
+        color: white;
+    }
+</style>
+
+<div class="container">
+    <h1>
+        heading 1
+    </h1>
+    <div>
+        <h1>
+            heading heading 1
+        </h1>
+
+        <div>
+            <h1>
+                heading heading heading 1
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="box">
+
+    <div>
+        <h1>I am box div 1</h1>
+        <div>
+            <h1>I am box div 2</h1>
+            <div>
+                <h1>I am box div 3</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+    /* Direct Child selector  */
+
+    .container>h1 {
+        background-color: dodgerblue;
+        color: white;
+    }
+</style>
+
+
+<div class="container">
+    <h1>
+        This is the h1 to be styled
+    </h1>
+
+    <div>
+        <h1>This is the h1 not to be styled</h1>
+        <div>
+            <h1>This is the h1 not to be styled</h1>
+        </div>
+    </div>
+</div>
+
+
+<!-- Child  -->
+<div class="container">
+    <div class="box"></div>
+</div>
+
+<!-- Sibling  -->
+<div class="container"></div>
+<div class="box"></div>
+
+
+
+
+<div class="container">Hi i am container</div>
+<div class="box">Hi i am box </div>
+<div class="logo">Hi i am logo
+    <div class="box">
+        I am box of child logo
+    </div>
+
+</div>
+<div class="box">Hi i am a box 2</div>
+
+<style>
+    .container~.box {
+        background-color: blue;
+    }
+</style>

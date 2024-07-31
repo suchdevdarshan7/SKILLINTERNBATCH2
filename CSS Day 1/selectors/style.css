@@ -1,0 +1,60 @@
+/* The element or tag name selector  */
+
+/* h1{
+    background-color: blue;
+} */
+
+
+/* Id selector */
+/* #green{
+    background-color: lightgreen;
+}
+
+
+p{
+    background-color: red;
+} */
+
+/* h1{
+    background-color: dodgerblue;
+}
+p{
+    background-color: dodgerblue;
+}
+h4{
+    background-color: dodgerblue;
+} */
+
+/* ! Generic class selector */
+
+/* .blue-color{
+    background-color: hotpink;
+} */
+
+/* ! Class selector  */
+
+/* h2.colored{
+    background-color: crimson;
+} */
+
+/* ! Universal selector  */
+
+/* 
+{
+    font-size:30px;
+} 
+*/
+
+/* ! Attribute selector  */
+
+/* input[name]{
+    background-color: black;
+} */
+
+/* ! Attribute value selector  */
+
+
+/* input[type="text"]{
+    background-color: darkmagenta;
+} */
+
