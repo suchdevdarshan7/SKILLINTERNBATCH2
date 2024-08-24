@@ -1,0 +1,23 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+}
+.container img{
+    height: 400px;
+    width:500px;
+    border-radius: 10px;
+}
+
+button{
+    height:40px;
+    width:40px;
+}
