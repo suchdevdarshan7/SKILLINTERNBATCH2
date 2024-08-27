@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.green{
+    background-color: green;
+    color: white; 
+    border-radius: 18px;
+    padding: 20px;
+}
