@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: tomato;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap:10px;
+}
